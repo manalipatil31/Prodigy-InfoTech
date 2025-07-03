@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0e0e1a;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 0;
+  background: transparent;
+  color: white;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+}
+.navbar .logo {
+  font-weight: 700;
+  font-size: 20px;
+}
+.navbar nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.navbar .search-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: radial-gradient(circle at top left, #1b1e2f, #0e0e1a);
+}
+.hero .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8%;
+}
+.hero-content {
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.left {
+  max-width: 450px;
+}
+.left h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.left h2 span {
+  color: #1da1f2;
+}
+.left p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+}
+.subscribe-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+}
+.subscribe-form button {
+  padding: 10px;
+  background: #1da1f2;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.subscribe-form button:hover {
+  background-color: #0d8ddb;
+}
+.left small {
+  display: block;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+/* Right image with blob style */
+.right .image-box {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  border-radius: 70% 30% 30% 70% / 40% 30% 70% 60%;
+  overflow: hidden;
+  width: 320px;
+  height: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right .image-box img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
