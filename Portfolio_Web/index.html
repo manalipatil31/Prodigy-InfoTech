@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manali Patil | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <header class="hero">
+    <div class="hero-text" data-aos="fade-in">
+      <h1>Hello, I'm <span>Manali Patil</span></h1>
+      <h2><span id="typing"></span></h2>
+      <a href="#projects" class="btn">🚀 Explore Projects</a>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="toggle-theme">🌓</button>
+  </nav>
+
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I'm a final-year B.Tech CSE student with a passion for creating responsive and user-friendly web applications. I enjoy solving real-world problems with code and continuously improving my design and development skills.</p>
+    <p><strong>Location:</strong> Maharashtra, India<br><strong>Looking for:</strong> Internship / Full-Time Roles</p>
+  </section>
+
+  <section id="education" data-aos="fade-up">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Sant Gajanan Maharaj College of Engineering</strong> – B.Tech (CSE), Pursuing (2020–2022)</li>
+      <li><strong>K.V. Pendharkar College</strong> – HSC, 53.33% (2019–2020)</li>
+      <li><strong>SVB Sankara Vidyalaya</strong> – SSC, 79.80% (2018–2019)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2 data-aos="fade-up">Projects</h2>
+    <div class="project-grid">
+      <div class="project-card" data-aos="zoom-in">
+        <h3>🔐 Text File Encryption/Decryption</h3>
+        <p>A Java-based system for encrypting and decrypting `.txt` and `.java` files using symmetric key encryption. Includes a Swing GUI for file selection and password input. Secure I/O operations for reliable file handling.</p>
+        <a href="https://github.com/manalipatil31/Website" target="_blank">🔗 GitHub</a>
+      </div>
+      <div class="project-card" data-aos="zoom-in" data-aos-delay="100">
+        <h3>🌾 Direct Market Access for Farmers</h3>
+        <p>A responsive web application connecting farmers with buyers, built using HTML, CSS, JavaScript, and Bootstrap. Uses local storage for simulating persistence. Built under DSMP program to address agri-supply challenges.</p>
+        <a href="https://github.com/manalipatil31/Website" target="_blank">🔗 GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Manali is a hardworking student who brings creativity and consistency to every project." – Professor S. Kulkarni</p>
+    </div>
+    <div class="testimonial">
+      <p>"Her Java skills and UI sense helped our team project stand out!" – Peer Developer</p>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <h2>Skills</h2>
+    <div class="icon-grid">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+    </div>
+  </section>
+
+  <section id="stats">
+    <h2 data-aos="fade-up">My Stats</h2>
+    <div class="stats-grid">
+      <div><span class="counter" data-target="7">0</span><p>Projects</p></div>
+      <div><span class="counter" data-target="20">0</span><p>Hours Coded</p></div>
+      <div><span class="counter" data-target="3">0</span><p>Certificates</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 data-aos="fade-up">Contact Me</h2>
+    <form id="contactForm" data-aos="fade-up">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="socials" data-aos="fade-up">
+      <a href="https://www.linkedin.com/in/manali-patil31" target="_blank">LinkedIn</a>
+      <a href="https://github.com/manalipatil31" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manali Patil</p>
+  </footer>
+
+  <button id="scrollTopBtn" title="Go to top">⬆</button>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
